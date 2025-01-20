@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card {
+  height: 260px;
+  width: 210px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
+p {
+  margin: 10px;
+}
+h1 {
+  margin: 10px;
+}
+.cards {
+  height: 1080px;
+  width: 1066px;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.priceText {
+  color: gray;
+}
+.price {
+  font-weight: bold;
+}
+.img {
+  height: 112px;
+  width: 133px;
+}
